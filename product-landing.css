@@ -1,0 +1,21 @@
+li{
+    display: inline;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+body{
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightcoral;
+    }
+}
