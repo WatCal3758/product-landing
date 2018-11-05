@@ -5,13 +5,18 @@
     display: flex;
     justify-content: space-around;
     background: blue;
+}
+
+#header{
+    background-color: green;
     position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 .nav-link{
     color: black;
 }
-
 
 .nav-link:hover{
     color: white;
